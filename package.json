@@ -1,0 +1,29 @@
+{
+  "name": "laser-mase-with-prisms-and-mirrors",
+  "version": "1.0.0",
+  "description": "This is a command line app that can calculate the max moves before the light hit the wall.",
+  "main": "Laser Maze.js",
+  "scripts": {
+    "test": "mocha spec/Spec.js",
+    "start": "node LaserMaze.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shiai8901/LaserMaze.git"
+  },
+  "keywords": [
+    "oop",
+    "command-line-game",
+    "timed-coding-chanllenge"
+  ],
+  "author": "Ai Shi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shiai8901/LaserMaze/issues"
+  },
+  "homepage": "https://github.com/shiai8901/LaserMaze#readme",
+  "devDependencies": {
+    "chai": "^4.0.2",
+    "mocha": "^3.4.2"
+  }
+}
