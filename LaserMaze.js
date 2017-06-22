@@ -275,3 +275,10 @@ Prisms.prototype.saveVisit = function(lightStringDirection) {
 Prisms.prototype.getPrevVisits = function() {
 	return this.prevVisits;
 }
+
+module.exports = {
+	Board: Board,
+	Prisms: Prisms,
+	Mirror: Mirror
+}
+
